@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nflowchart LR\nA[define questions] --&gt; B[data cleaning]\nB --&gt; C[data modeling]\nC --&gt; D[model validating]\nD --&gt; E[data reporting]\n\n\n data science workflow\ntips1\n\\(Var(X) = E[X^2] - (E[X])^2\\)\n\\[\n\\sum_{i=1}^{n} x_i^2 = x_1^2 + x_2^2 + \\cdots + x_n^2\n\\]\nPrimary normal human bronchial epithelial (NHBE) cells have been developed and characterized for studying drug transport. (Srinivasan et al. 2015)"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe data is not real.↩︎"
+  }
+]

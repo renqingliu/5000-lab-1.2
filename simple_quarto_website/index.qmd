@@ -1,0 +1,71 @@
+---
+title: "simple_quarto_website"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    toc-location: left
+page-layout: article
+bibliography: reference.bib
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+<h1>Below are two parts of Data science.</h1>
+
+:::{layout-ncol=2}
+
+### Data science math part
+- liner algebra
+- probability
+- statistic
+
+### Data science code part
+- sql
+- python
+- r
+
+:::
+![image1](images/ds-1.png)
+![image2](images/ds-2.png)
+
+
+{{<video https://www.youtube.com/watch?v=RBSUwFGa6Fk>}}
+
+
+```{mermaid}
+%%| fig-cap: "data science workflow"
+flowchart LR
+A[define questions] --> B[data cleaning]
+B --> C[data modeling]
+C --> D[model validating]
+D --> E[data reporting]
+```
+<h2>This is a user table.</h2>
+
+| user_id | name |
+| --- | --- |
+| 20001 | Jack |
+| 20002 | Tom |
+| 20003 | Jerry |
+
+tips[^1]
+
+<h3>Below are two equation about variance and expectation.</h3>
+
+$Var(X) = E[X^2] - (E[X])^2$
+
+$$
+\sum_{i=1}^{n} x_i^2 = x_1^2 + x_2^2 + \cdots + x_n^2
+$$
+
+> They are very important equations!
+
+Primary normal human bronchial epithelial (NHBE) cells have been developed and characterized for studying drug transport. [@srinivasan2015teer]
+
+
+
+[^1]: The data is not real.
